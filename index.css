@@ -1,0 +1,54 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-image: url(ludo.jpeg); /* Changed background image URL */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+form {
+  background-color: rgba(255, 255, 255, 0.8); /* Adjusted background color transparency */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px; 
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc; 
+  border-radius: 10px;
+  font-size: 16px;
+  background-color: #fff; 
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
